@@ -4,6 +4,6 @@
 <ul> 
 <li>Html5</li>
 <li>CSS3</li>
-<li>Bootstrap</li>
-<li>SASS</li>
+<li> Bootstrap </li>
+<li> SASS </li>
 </ul>
