@@ -51,12 +51,13 @@ main {
     flex-wrap: wrap;
 }
 .titulo-verde {
-    color:blueviolet
-    black;
+    color:blueviolet;
+    background-color: black;
+    background-position: center;
 }
 .background-negro {
-    color: black;
-}
+    background-color: black; 
+    }
 .galeria__img {
     width: 900px;  /* ancho */
     height: 600px; /* alto */
@@ -90,8 +91,8 @@ main {
     grid-template-areas:"chica_rubia calle YellowGirl Escaleras"
                         "chica_rubia moreno YellowGirl Escaleras"
                         "Florchica moreno YellowGirl Escaleras"
-                        "Florchica Vesti Puerta Otoño Otoño"
-                        "Des Vesti Puerta Otoño Otoño"
+                        "Florchica Vesti Puerta Otoño "
+                        "Des Vesti Puerta Otoño "
                         "Des Vesti Otoño Otoño";
                         row-gap: 10px;
 }

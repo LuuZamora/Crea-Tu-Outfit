@@ -12,7 +12,7 @@
 
     h2 {
     font-family: 'Zen Old Mincho', serif;
-    color:rgb(255, 41, 148);
+    color: rgb(255, 206, 214);
     background-color: black; 
     }
 
@@ -54,11 +54,14 @@
     flex-wrap: wrap; }
 
     .titulo-verde {
-    color: blueviolet
-    black; }
+    color: blueviolet;
+    background-color: black;
+    background-position: center;
+}
 
     .background-negro {
-    color: black; }
+    background-color: black; 
+    }
 
     .background-naranja {
         background-color: #ffa806;
@@ -97,9 +100,9 @@
     "chica_rubia calle YellowGirl Escaleras"
     "chica_rubia moreno YellowGirl Escaleras"
     "Florchica moreno YellowGirl Escaleras"
-    "Florchica Vesti Puerta Otoño Otoño"
-    "Des Vesti Puerta Otoño Otoño"
-    "Des Vesti Otoño Otoño"
+    "Florchica Vesti Puerta Otoño"
+    "Des Vesti Puerta Otoño"
+    "Des Vesti Otoño Otoño";
     row-gap: 10px; }
 
     .chica_rubia {
