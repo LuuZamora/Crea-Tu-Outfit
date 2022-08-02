@@ -60,23 +60,24 @@ main {
 .galeria__img {
     width: 900px;  /* ancho */
     height: 600px; /* alto */
+    .&__img--promedio {
+        width: 400px;
+        height: 500px;
+        padding: 30px;
+        justify-content: space-between;
+        border-radius: 20%;
+    
+    }
+    .&{
+        background-image: linear-gradient(to right, beige, orange);
+        display: flex;
+        flex-wrap: wrap;
+        padding: 100px;
+        margin: 60px;
+        flex-grow: 1;
+    }
 }
-.galeria__img--promedio {
-    width: 400px;
-    height: 500px;
-    padding: 30px;
-    justify-content: space-between;
-    border-radius: 20%;
 
-}
-.galeria {
-    background-image: linear-gradient(to right, beige, orange);
-    display: flex;
-    flex-wrap: wrap;
-    padding: 100px;
-    margin: 60px;
-    flex-grow: 1;
-}
 .carrousel_altura {
     height: 900px;
 }
@@ -85,14 +86,13 @@ main {
     width: 100vw;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:"chica_rubia calle YellowGirl Escaleras"
-                        "chica_rubia moreno YellowGirl Auto"
-                        "chica_rubia moreno YellowGirl Auto"
-                        "Florchica Vesti Puerta Otoño"
-                        "Florchica Vesti Puerta Otoño"
-                        "Des Vesti cuero Otoño"
-                        "Des Vesti cuero Otoño";
+                        "chica_rubia moreno YellowGirl Escaleras"
+                        "Florchica moreno YellowGirl Escaleras"
+                        "Florchica Vesti Puerta Otoño Otoño"
+                        "Des Vesti Puerta Otoño Otoño"
+                        "Des Vesti Otoño Otoño";
                         row-gap: 10px;
 }
 .chica_rubia {

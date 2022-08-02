@@ -12,8 +12,9 @@
 
     h2 {
     font-family: 'Zen Old Mincho', serif;
-    color: rebeccapurple;
-    background-color: black; }
+    color:rgb(255, 41, 148);
+    background-color: black; 
+    }
 
     p {
     background-color: #ffa806; }
@@ -59,6 +60,9 @@
     .background-negro {
     color: black; }
 
+    .background-naranja {
+        background-color: #ffa806;
+    }
     .galeria__img {
     width: 900px;
     /* ancho */
@@ -87,15 +91,15 @@
     display: grid;
     width: 100vw;
     height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "chica_rubia calle YellowGirl Escaleras"
-    "chica_rubia moreno YellowGirl Auto"
-    "chica_rubia moreno YellowGirl Auto"
-    "Florchica Vesti Puerta Otoño"
-    "Florchica Vesti Puerta Otoño"
-    "Des Vesti cuero Otoño"
-    "Des Vesti cuero Otoño";
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "chica_rubia calle YellowGirl Escaleras"
+    "chica_rubia moreno YellowGirl Escaleras"
+    "Florchica moreno YellowGirl Escaleras"
+    "Florchica Vesti Puerta Otoño Otoño"
+    "Des Vesti Puerta Otoño Otoño"
+    "Des Vesti Otoño Otoño"
     row-gap: 10px; }
 
     .chica_rubia {
@@ -161,23 +165,9 @@
     background-size: cover;
     background-repeat: no-repeat; }
 
-    .Auto {
-    grid-area: Auto;
-    background-image: url("../recursos/Auto.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; }
-
     .Des {
     grid-area: Des;
     background-image: url("../recursos/Des.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; }
-
-    .cuero {
-    grid-area: cuero;
-    background-image: url("../recursos/cuero.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
@@ -299,16 +289,9 @@
     .Puerta {
         grid-column: 1/2;
         grid-row: 9/10; }
-    .Auto {
-        grid-column: 1/2;
-        grid-row: 10/11; }
     .Des {
         grid-column: 1/2;
-        grid-row: 11/12; }
-    .cuero {
-        grid-column: 1/2;
-        grid-row: 12/13; } }
-
+        grid-row: 11/12; } }
     /* MEDIA QUERIE DE TABLET */
     @media (min-width: 576px) and (max-width: 992px) {
     header {
@@ -350,15 +333,8 @@
     .Puerta {
         grid-column: 3/4;
         grid-row: 5/6; }
-    .Auto {
-        grid-column: 1/2;
-        grid-row: 7/8; }
     .Des {
         grid-column: 2/3;
-        grid-row: 7/8; }
-    .cuero {
-        grid-column: 3/4;
         grid-row: 7/8; } }
-
     .Gradienteip {
     background-image: linear-gradient(to right, beige, white); }
