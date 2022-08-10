@@ -1,0 +1,131 @@
+/* MEDIA DE CELULAR */
+@media (min-width: 320px) and (max-width: 575px){
+    header {
+        height: auto;
+    }
+    .header__lista {
+        flex-direction: column;
+        flex-grow: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .header__nav {
+        flex-direction: column;
+    }
+    .producto_grid {
+        height: auto;
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto;
+        row-gap: 10px;
+    }
+.chica_rubia {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.calle {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.YellowGirl {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.Escaleras {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.moreno {
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+.Otoño {
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
+.Florchica {
+    grid-column: 1/2;
+    grid-row: 7/8;
+}
+.Vesti {
+    grid-column: 1/2;
+    grid-row: 8/9;
+}
+.Puerta {
+    grid-column: 1/2;
+    grid-row: 9/10;
+}
+.Auto {
+    grid-column: 1/2;
+    grid-row: 10/11;
+}
+.Des {
+    grid-column: 1/2;
+    grid-row: 11/12; 
+}
+.cuero {
+    grid-column: 1/2;
+    grid-row: 12/13; 
+}
+}
+/* MEDIA QUERIE DE TABLET */
+@media (min-width: 576px) and (max-width: 992px) {
+    header {
+        height: auto
+    }
+    .header__lista {
+        flex-grow: 0;
+    }
+    .header__nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .producto_grid {
+        height: auto;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(3, 1fr) 0,25fr;
+        row-gap: 15px;
+    }
+    .chica_rubia {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .calle {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .YellowGirl {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .Escaleras {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .moreno {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .Otoño {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+    .Florchica {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    .Vesti {
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+    .Puerta {
+        grid-column: 3/4;
+        grid-row: 5/6;
+    }
+    .Auto {
+        grid-column: 1/2;
+        grid-row: 7/8;
+    }
+    .Des {
+        grid-column: 2/3;
+        grid-row: 7/8;
+    }
