@@ -1,0 +1,17 @@
+.header__item  {
+    display: inline; /* ALINEAR NAVEGACION */
+    padding: 15px;
+}
+.header__item a {
+    color: white;
+    text-decoration: none;
+}
+.header__nav {
+    background-color: blueviolet;
+    flex-wrap: wrap;
+    display: flex;
+}
+.header__lista {
+    display: flex;
+    flex-wrap: wrap;
+}
