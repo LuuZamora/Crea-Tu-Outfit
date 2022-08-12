@@ -1,6 +1,8 @@
 @import "footer";
 @import "header";
 @import "mediaqueries";
+@import"variables.scss";
+@import "operaciones";
 
 * {
     margin: 0px; /* margen externo */
@@ -327,4 +329,4 @@ color:blueviolet;
     width: 50px;
     height: 50px; 
     }
-}
+}}

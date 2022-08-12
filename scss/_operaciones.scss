@@ -1,0 +1,19 @@
+@if ( condicion a cumplir ) {
+    
+} @else {
+    
+}
+
+    $redes: (    
+        instagram: pink,
+        twitter: blue,
+        tiktok: black 
+    );
+
+    
+
+@each $instagram, $pink in $redes {
+    .color-#{$name} {
+        background-color: rgb(207, 12, 207);
+    }
+}
