@@ -1,14 +1,15 @@
-@if ( condicion a cumplir ) {
+    @if ( condicion a cumplir ) {
     
-} @else {
+} 
+@else {
     
 }
 
-    $redes: (    
-        instagram: pink,
-        twitter: blue,
-        tiktok: black 
-    );
+$redes: (    
+    instagram: pink,
+    twitter: blue,
+    tiktok: black 
+);
 
     
 
