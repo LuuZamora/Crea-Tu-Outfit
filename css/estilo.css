@@ -203,7 +203,8 @@
         display: flex;
         flex-wrap: wrap;
         padding: 100px;
-        margin: 60px;
+        margin: 40px;
+        justify-content: space-between;
         flex-grow: 1; }
     .carrousel_altura {
         height: 900px; }
