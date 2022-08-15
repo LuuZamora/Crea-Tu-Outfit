@@ -20,10 +20,10 @@ h2 {
     background-color: black;
 }
 p {
-    background-color:rgb(212, 0, 255);
+    background-color: blueviolet;
 }
 span {
-    background-color: rgb(215, 15, 255);
+    background-color: blueviolet;
 }
 ul {
     list-style: none;
@@ -55,12 +55,13 @@ main {
     flex-wrap: wrap;
 }
 .titulo-verde {
-color:blueviolet;
+        color:blueviolet;
         background-color: black;
         background-position: center;
-    .background-negro {
+}       
+.background-negro {
         background-color: black; 
-        }
+}
         .galeria__img--promedio {
             width: 400px;
             height: 500px;
@@ -329,4 +330,4 @@ color:blueviolet;
     width: 50px;
     height: 50px; 
     }
-}}
+}
