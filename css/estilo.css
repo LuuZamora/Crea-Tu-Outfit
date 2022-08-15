@@ -179,8 +179,14 @@
     background-color: rgb(60, 0, 128);}
 
     .background-naranja {
-    background-color: rgb(60, 0, 128);
-    }
+    background-color: rgb(60, 0, 128);}
+    
+    .nav-link {
+    color: white;}
+
+    .form-label {
+    color: white;}
+
     .titulo-verde {
     color: white;
     background-color: black;
