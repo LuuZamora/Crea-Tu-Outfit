@@ -119,9 +119,9 @@
         grid-row: 7/8; } }
 
     * {
-    margin: 0px;
+    margin: 2px;
     /* margen externo */
-    padding: 0px;
+    padding: 2px;
     /* margen interno */ }
 
     h1 {
