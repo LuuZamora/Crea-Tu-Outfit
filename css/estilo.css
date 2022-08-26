@@ -212,14 +212,14 @@
     display: grid;
     width: 100vw;
     height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 4fr 1fr 1fr 1fr;
+    grid-template-rows: 4fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "chica_rubia calle YellowGirl Escaleras"
 "chica_rubia moreno YellowGirl Escaleras"
 "Florchica moreno YellowGirl Escaleras"
 "Florchica Vesti Puerta Otoño "
-"Des Vesti Puerta Otoño "
-"Des Vesti Otoño Otoño"; }
+"Des Vesti Puerta Otoño"
+"Des Vesti Otoño Otoño"; } 
         .producto_grid .chica_rubia {
         grid-area: chica_rubia;
         background-image: url("../recursos/chica rubia.jpg");

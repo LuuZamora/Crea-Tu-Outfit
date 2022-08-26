@@ -96,176 +96,91 @@ main {
                             "Florchica Vesti Puerta Otoño "
                             "Des Vesti Puerta Otoño "
                             "Des Vesti Otoño Otoño";
-                            row-gap: 10px;
-                            .chica_rubia {
-                                grid-area: chica_rubia;
-                                background-image: url("../recursos/chica rubia.jpg");
-                                background-position: center;
-                                background-size: cover;
-                                background-repeat: no-repeat;
-                            }
-                            .calle {
-                                grid-area: calle;
-                                background-image: url("../recursos/calle.jpg");
-                                background-position: 35% 25%;
-                                background-size: cover;
-                                background-repeat: no-repeat;
-                            }
-                            .YellowGirl {
-                                grid-area: YellowGirl;
-                                background-image: url("../recursos/YellowGirl.jpg");
-                                background-position: center;
-                                background-size: cover;
-                                background-repeat: no-repeat;
-                            }
-                            .Escaleras {
-                                grid-area: Escaleras;
-                                background-image: url("../recursos/Escaleras.jpg");
-                                background-position: center;
-                                background-size: cover;
-                                background-repeat: no-repeat;
-                            }
-                            .moreno {
-                                grid-area: moreno;
-                                background-image: url("../recursos/moreno.jpg");
-                                background-position: center;
-                                background-size: cover;
-                                background-repeat: no-repeat;
-                            }
-                            .Otoño {
-                                grid-area: Otoño;
-                                background-image: url("../recursos/Otoño.jpg");
-                                background-position: center;
-                                background-size: auto;
-                                background-repeat: no-repeat;
-                            }
-                            .Florchica {
-                                grid-area: Florchica;
-                                background-image: url("../recursos/Florchica.jpg");
-                                background-position: center;
-                                background-size: cover;
-                                background-repeat: no-repeat;
-                            }
-                            .Vesti {
-                                grid-area: Vesti;
-                                background-image: url("../recursos/Vesti.jpg");
-                                background-position: 35% 65%;
-                                background-size: cover;
-                                background-repeat: no-repeat;
-                            }
-                            .Puerta {
-                                grid-area: Puerta;
-                                background-image: url("../recursos/Puerta.jpg");
-                                background-position: center;
-                                background-size: cover;
-                                background-repeat: no-repeat;
-                            }
-                            .Auto {
-                                grid-area: Auto;
-                                background-image: url("../recursos/Auto.jpg");
-                                background-position: center;
-                                background-size: cover;
-                                background-repeat: no-repeat;
-                            }
-                            .Des {
-                                grid-area: Des;
-                                background-image: url("../recursos/Des.jpg");
-                                background-position: center;
-                                background-size: cover;
-                                background-repeat: no-repeat;  
-                            }
-                            .cuero {
-                                grid-area: cuero;
-                                background-image: url("../recursos/cuero.jpg");
-                                background-position: center;
-                                background-size: cover;
-                                background-repeat: no-repeat;
-                            }
-                }
-.chica_rubia {
-    grid-area: chica_rubia;
-    background-image: url("../recursos/chica rubia.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.calle {
-    grid-area: calle;
-    background-image: url("../recursos/calle.jpg");
-    background-position: 35% 25%;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.YellowGirl {
-    grid-area: YellowGirl;
-    background-image: url("../recursos/YellowGirl.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.Escaleras {
-    grid-area: Escaleras;
-    background-image: url("../recursos/Escaleras.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.moreno {
-    grid-area: moreno;
-    background-image: url("../recursos/moreno.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.Otoño {
-    grid-area: Otoño;
-    background-image: url("../recursos/Otoño.jpg");
-    background-position: 35% 65%;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.Florchica {
-    grid-area: Florchica;
-    background-image: url("../recursos/Florchica.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.Vesti {
-    grid-area: Vesti;
-    background-image: url("../recursos/Vesti.jpg");
-    background-position: 35% 65%;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.Puerta {
-    grid-area: Puerta;
-    background-image: url("../recursos/Puerta.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.Auto {
-    grid-area: Auto;
-    background-image: url("../recursos/Auto.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.Des {
-    grid-area: Des;
-    background-image: url("../recursos/Des.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;  
-}
-.cuero {
-    grid-area: cuero;
-    background-image: url("../recursos/cuero.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+                            row-gap: 10px; }
+    .chica_rubia {
+        grid-area: chica_rubia;
+        background-image: url("../recursos/chica rubia.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .calle {
+        grid-area: calle;
+        background-image: url("../recursos/calle.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .YellowGirl {
+        grid-area: YellowGirl;
+        background-image: url("../recursos/YellowGirl.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .Escaleras {
+        grid-area: Escaleras;
+        background-image: url("../recursos/Escaleras.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .moreno {
+        grid-area: moreno;
+        background-image: url("../recursos/moreno.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .Otoño {
+        grid-area: Otoño;
+        background-image: url("../recursos/Otoño.jpg");
+        background-position: 35% 65%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .Florchica {
+        grid-area: Florchica;
+        background-image: url("../recursos/Florchica.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .Vesti {
+        grid-area: Vesti;
+        background-image: url("../recursos/Vesti.jpg");
+        background-position: 35% 65%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .Puerta {
+        grid-area: Puerta;
+        background-image: url("../recursos/Puerta.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .Auto {
+        grid-area: Auto;
+        background-image: url("../recursos/Auto.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .Des {
+        grid-area: Des;
+        background-image: url("../recursos/Des.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;  
+    }
+    .cuero {
+        grid-area: cuero;
+        background-image: url("../recursos/cuero.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     .moda_circular_grid {
         display: grid;
         width: 100vw;
@@ -278,8 +193,7 @@ main {
                             "chicovin chicavint chicavint camperetr camperetr conjunto conjunto"
                             "chicovin chicavint chicavint camperetr camperetr conjunto conjunto"
                             "chicovin chicavint chicavint camperetr camperetr conjunto conjunto"
-                            "chicovin chicavint chicavint camperetr camperetr conjunto conjunto";
-
+                            "chicovin chicavint chicavint camperetr camperetr conjunto conjunto"; }
     .chicovin {
         grid-area: chicovin;
         background-image: url("../recursos/chicovin.jpg");
@@ -333,4 +247,3 @@ main {
     width: 50px;
     height: 50px; 
     }
-}
