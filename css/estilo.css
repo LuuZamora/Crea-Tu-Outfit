@@ -132,6 +132,7 @@
     h2 {
     font-family: 'Zen Old Mincho', serif;
     color: white;
+    text-align: center;
     background-color: black; }
 
     p {
@@ -211,79 +212,94 @@
 .producto_grid {
     display: grid;
     width: 100vw;
-    height: 100vh;
-    grid-template-columns: 4fr 1fr 1fr 1fr;
-    grid-template-rows: 4fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "chica_rubia calle YellowGirl Escaleras"
-"chica_rubia moreno YellowGirl Escaleras"
-"Florchica moreno YellowGirl Escaleras"
-"Florchica Vesti Puerta Otoño "
-"Des Vesti Puerta Otoño"
-"Des Vesti Otoño Otoño"; } 
-        .producto_grid .chica_rubia {
+    height: 190vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "chica_rubia chica_rubia calle calle YellowGirl YellowGirl Escaleras Escaleras"
+    "chica_rubia chica_rubia calle calle YellowGirl YellowGirl Escaleras Escaleras"
+    "Florchica Florchica moreno moreno Puerta Puerta Otoño Otoño"
+    "Florchica Florchica moreno moreno Puerta Puerta Otoño Otoño"
+    "Des Des Vesti Vesti acc acc circulo circulo"
+    "Des Des Vesti Vesti acc acc circulo circulo";
+}  
+        .chica_rubia {
         grid-area: chica_rubia;
-        background-image: url("../recursos/chica rubia.jpg");
+        background-image: url("../recursos/chica_rubia.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat; }
-        .producto_grid .calle {
+        .calle {
         grid-area: calle;
         background-image: url("../recursos/calle.jpg");
-        background-position: 35% 25%;
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat; }
-        .producto_grid .YellowGirl {
+        .YellowGirl {
         grid-area: YellowGirl;
         background-image: url("../recursos/YellowGirl.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat; }
-        .producto_grid .Escaleras {
+        .Escaleras {
         grid-area: Escaleras;
         background-image: url("../recursos/Escaleras.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat; }
-        .producto_grid .Florchica {
+        .Florchica {
         grid-area: Florchica;
         background-image: url("../recursos/Florchica.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat; }
-        .producto_grid .moreno {
+        .moreno {
         grid-area: moreno;
         background-image: url("../recursos/moreno.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat; }
-        .producto_grid .Puerta {
+        .Gris {
         grid-area: Puerta;
-        background-image: url("../recursos/Puerta.jpg");
+        background-image: url("../recursos/gris.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat; }
-        .producto_grid .Otoño {
+        .Cuero {
         grid-area: Otoño;
-        background-image: url("../recursos/Otoño.jpg");
+        background-image: url("../recursos/cuero.jpg");
         background-position: center;
-        background-size: auto;
+        background-size: cover;
         background-repeat: no-repeat; }
-        .producto_grid .Des {
+        .Des {
         grid-area: Des;
         background-image: url("../recursos/Des.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat; }
-        .producto_grid .Vesti {
+        .Vesti {
         grid-area: Vesti;
         background-image: url("../recursos/Vesti.jpg");
-        background-position: 35% 65%;
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat; } 
+        .acc {
+        grid-area: acc;
+        background-image: url("../recursos/acc.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+        .circulo {
+        grid-area: circulo;
+        background-image: url("../recursos/circulo.jpg");
+        background-position: 35% 65%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
 .moda_circular_grid {
     display: grid;
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     grid-template-columns: 4fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 4fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "chicovin VVr VVr retro retro modacircular modacircular"

@@ -17,6 +17,7 @@ h1 {
 h2 {
     font-family: 'Zen Old Mincho', serif; 
     color: white;
+    text-align: center;
     background-color: black;
 }
 p {
@@ -99,7 +100,7 @@ main {
                             row-gap: 10px; }
     .chica_rubia {
         grid-area: chica_rubia;
-        background-image: url("../recursos/chica rubia.jpg");
+        background-image: url("../recursos/chicarubia.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
